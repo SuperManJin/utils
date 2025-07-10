@@ -1,0 +1,19 @@
+import com.sun.org.apache.xalan.internal.xsltc.cmdline.Compile
+
+plugins {
+    id 'java'
+}
+
+group 'jwm'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile group: 'org.slf4j', name: 'slf4j-simple', version: '1.6.1'
+}
